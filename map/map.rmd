@@ -1,0 +1,37 @@
+---
+title: "PEC2_Visualizacion_CARLOS_TORO"
+author: "Carlos Toro"
+date: '2024-04-15'
+output:
+  html_document:
+    highlight: default
+    number_sections: yes
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
+    
+  word_document: default
+  pdf_document:
+    toc: yes
+    number_sections: true
+    df_print: kable
+    highlight: default      
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+```
+
+# Mapa de total de contaminación CO2 por paises desde 1750
+
+![Contaminación de CO2 por paises](map.png)
+
+USA es el país más contaminate desde la era industrial, sin embargo, como veremos en [Histograma](../histograma/Carlos_TORO_Visualizacion_histograma.html "histograma"), esta tendencia está cambiando debido al desarrollo de China.
+
+Por otro lado, hay que añadir que la suma los paises europeos, es comparable a los niveles de contaminación de los paises más contaminantes.
+
+[Volver a la página principal](../index.html "Volver a la página principal")

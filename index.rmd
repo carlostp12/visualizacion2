@@ -1,0 +1,97 @@
+---
+title: "PEC2_Visualizacion_CARLOS_TORO"
+author: "Carlos Toro"
+date: '2024-04-22'
+output:
+  html_document:
+    highlight: default
+    number_sections: yes
+    theme: cosmo
+    toc: yes
+    toc_depth: 2
+    
+  word_document: default
+  pdf_document:
+    toc: yes
+    number_sections: true
+    df_print: kable
+    highlight: default      
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+```
+
+# Visualización de Datos. PEC1
+
+# Archivo de datos
+
+El presente estudio esta basado en el dataset descargado de
+
+<https://www.kaggle.com/datasets/thedevastator/global-fossil-co2-emissions-by-country-2002-2022>
+
+**Descripción**:
+
+Se trata de un estudio de las emisiones de CO2 por país desde 1750.
+
+La siguiente tabla describe cada uno de las columnas.
+
+| **Column name**        | **Description**                                                                                |
+|----------------------|--------------------------------------------------|
+| **Country**            | The name of the country. (String)                                                              |
+| **ISO 3166-1 alpha-3** | The three-letter code for the country. (String)                                                |
+| **Year**               | The year of the data. (Integer)                                                                |
+| **Total**              | The total amount of CO2 emissions for the country in the given year. (Float)                   |
+| **Coal**               | The amount of CO2 emissions from coal for the country in the given year. (Float)               |
+| **Oil**                | The amount of CO2 emissions from oil for the country in the given year. (Float)                |
+| **Gas**                | The amount of CO2 emissions from gas for the country in the given year. (Float)                |
+| **Cement**             | The amount of CO2 emissions from cement production for the country in the given year. (Float)  |
+| **Flaring**            | The amount of CO2 emissions from flaring operations for the country in the given year. (Float) |
+| **Other**              | The amount of CO2 emissions from other sources for the country in the given year. (Float)      |
+| **Per Capita**         | The amount of CO2 emissions per capita for the country in the given year. (Float)              |
+
+\
+**Licencia:**
+
+**License: [CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)**\
+No Copyright - You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. [See Other Information](https://creativecommons.org/publicdomain/zero/1.0/).
+
+# Visualizaciones
+
+## Visualización 1: Histograma.
+
+Se trata de una gráfica comparativa entre las emisiones por década de los paises Rusia, China y USA desde 1910.
+
+**Técnica usada**: R con R-Notebook.
+
+[Pulse para acceder al histograma](histograma/Carlos_TORO_Visualizacion_histograma.html "Pulse para acceder al histograma")
+
+[Rescargar el arhivo R](histograma/Carlos_TORO_Visualizacion_histograma.Rmd "Rescargar el arhivo R")
+
+## Visualización 2: Proportional Symbol Map.
+
+Se trata de un mapa comparativo de las emisiones totales a lo largo de la historia de cada país.
+
+**Técnica usada**: Tableau.
+
+[Proportional Symbol map](map/map.html "Pulse para acceder al Mapa")
+
+[Descargar el archivo twb de Tableau](map/map_by_country.twb "Descargar el archivo twb de Tableau")
+
+## Visualización 3: Ridgeline Charts.
+
+Se trata de una gráfica interactiva de cada país con frecuencias de las emisiones por componentes desde 1910.
+
+Es muy importante entender que para leer correctamente esta gráfica, los valores que tienen importancia son los que están desplazados a la derecha, cuantos más valores veamos a la derecha mayor es la emisión del pais de ese componente:
+
+**Técnica usada**: HTML con javascript y librería D3.
+
+[Pulse para acceder al Ridgeline chart](ridgeline/ridgeline.html "Pulse para acceder al Ridgeline chart")
+
+# Descargar la práctica.
+
+Se puede descargar todo el contenido de esta práctica mendiante [este link](practica.zip "Descargar práctica como ZIP").
