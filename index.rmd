@@ -41,7 +41,7 @@ Se trata de un estudio de las emisiones de CO2 por país desde 1750.
 La siguiente tabla describe cada uno de las columnas.
 
 | **Column name**        | **Description**                                                                                |
-|----------------------|--------------------------------------------------|
+|------------------------|------------------------------------------------------------------------------------------------|
 | **Country**            | The name of the country. (String)                                                              |
 | **ISO 3166-1 alpha-3** | The three-letter code for the country. (String)                                                |
 | **Year**               | The year of the data. (Integer)                                                                |
@@ -79,6 +79,8 @@ Se trata de un mapa comparativo de las emisiones totales a lo largo de la histor
 **Técnica usada**: Tableau.
 
 [Proportional Symbol map](map/map.html "Pulse para acceder al Mapa")
+
+[Descargar el mapa como PDF](map/map_by_country.pdf "Descargar PDF")
 
 [Descargar el archivo twb de Tableau](map/map_by_country.twb "Descargar el archivo twb de Tableau")
 
