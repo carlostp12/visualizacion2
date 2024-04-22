@@ -98,4 +98,4 @@ Es muy importante entender que para leer correctamente esta gráfica, los valore
 
 # Descargar la práctica.
 
-Se puede descargar todo el contenido de esta práctica mendiante [este link](practica.zip "Descargar práctica como ZIP").
+Se puede descargar todo el contenido de esta práctica mendiante [este link](practica2.zip "Descargar práctica como ZIP").
