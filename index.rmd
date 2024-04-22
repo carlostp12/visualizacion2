@@ -28,9 +28,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Visualización de Datos. PEC1
 
-# Archivo de datos
+# Archivo de datos: Emisiones de CO2 por país.
 
-El presente estudio esta basado en el dataset descargado de
+[![Image propiedad de : Kouji Tsuru. Licencia para su uso: https://unsplash.com/es/licencia](unsplash.jpg)](Contaminacion)
+
+El presente estudio esta basado en el dataset descargado de:
 
 <https://www.kaggle.com/datasets/thedevastator/global-fossil-co2-emissions-by-country-2002-2022>
 
@@ -41,7 +43,7 @@ Se trata de un estudio de las emisiones de CO2 por país desde 1750.
 La siguiente tabla describe cada uno de las columnas.
 
 | **Column name**        | **Description**                                                                                |
-|------------------------|------------------------------------------------------------------------------------------------|
+|------------------------|------------------------------------------------|
 | **Country**            | The name of the country. (String)                                                              |
 | **ISO 3166-1 alpha-3** | The three-letter code for the country. (String)                                                |
 | **Year**               | The year of the data. (Integer)                                                                |
